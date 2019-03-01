@@ -22,11 +22,11 @@ public class GraphicsRunner extends JFrame
 
 		//getContentPane().add(new SmileyFace());
 		
-		getContentPane().add(new BigHouse());
+		//getContentPane().add(new BigHouse());
 		
 		//getContentPane().add(new Robot());
 		
-		//getContentPane().add(new )
+		getContentPane().add(new ShapePanel());
 		
 		//add other classes to run them 
 		//BigHouse, Robot, or ShapePanel 

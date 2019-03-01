@@ -23,6 +23,10 @@ public class Shape
    {
 		xPos = x;
 		//finish this constructor
+		yPos = y;
+		width = wid;
+		height = ht;
+		color = col;
    }
 
 
@@ -35,6 +39,14 @@ public class Shape
       //    ^
       //  [ :: ]
       //    ()
+      
+      
+      
+      window.fillOval(xPos, yPos, width, height/2);
+      window.fillOval(xPos, yPos + height, width, width);
+      window.fillRect(xPos, yPos + height+width, width, width);
+      window.fillOval(xPos, yPos + 2*height, width, width);
+      window.fillRect(xPos, yPos + 2*height+width, width, width);
 
    }
 
